@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Get Well Soon Card</title>
+    <style>
+      body {
+        background-color: lightyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      img {
+        max-width: 80%;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-close {
+        padding: 10px 20px;
+        background-color: aqua;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="cardImage" src="" alt="Selected Card" />
+    <p id="cardMessage"></p>
+    <button class="btn-close" onclick="window.close()">Close</button>
+
+    <script src="./new.js"></script>
+  </body>
+</html>
